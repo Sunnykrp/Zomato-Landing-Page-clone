@@ -409,7 +409,6 @@ letter-spacing: 0.5px;
 .navigation__container
 {
     display: grid;
-    
     grid-template-columns: repeat(5,1fr);
     width: 80%;
     margin: auto;
@@ -440,28 +439,28 @@ letter-spacing: 0.5px;
 {
     color: black;
 }
-.social__links_container
-{
+.social__links_container {
     display: flex;
     gap: 0.5rem;
-}
-.social__links_container button{
-   background-color: black;
-   border: none;
-   width: 25px;
-   height: 25px;
-   border-radius: 30px; 
-   display:flex;
-   justify-content: center;
-   align-items: center; 
-}
+  }
+  
+  .social__links_container button {
+    background-color: black;
+    border: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 .social__links_container button i{
  color: white;
  font-size: 13px;
 }
 .footer__section_logos
 {
-    width:15%;
+    width:100%;
     
 }
 .disclamer
